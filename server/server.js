@@ -11,13 +11,12 @@ dotenv.config();
 const app = express();
 const __dirname = path.resolve();
 
-app.use(
-  cors({
-    credentials: true,
-    origin:
-      "https://yourfavoritelibrary.herokuapp.com/",
-  })
-);
+app.use;
+cors({
+  credentials: true,
+  origin:
+    "https://iridescent-nougat-741d78.netlify.app",
+})();
 
 app.use(cookieParser());
 app.use(express.json());

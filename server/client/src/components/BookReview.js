@@ -58,7 +58,7 @@ const BookReview = (
   };
 
   return (
-    <Box>
+    <Box sx={{ width: "auto" }}>
       <Typography
         gutterBottom
         variant="h6"
